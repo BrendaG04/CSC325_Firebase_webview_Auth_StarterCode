@@ -58,3 +58,25 @@
     -fx-font-weight: bold;
     -fx-font-size: 35px;
 }
+
+.vbox-form {
+    -fx-padding: 40;
+}
+
+.label-title {
+    -fx-font-size: 24;
+    -fx-font-weight: bold;
+}
+
+.label-subtle {
+    -fx-text-fill: #666;
+}
+
+.button-primary {
+    -fx-font-size: 14;
+    -fx-padding: 10;
+}
+
+.button-secondary {
+    -fx-font-size: 12;
+}
