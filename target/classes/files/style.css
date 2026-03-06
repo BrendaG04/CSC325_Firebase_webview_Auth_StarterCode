@@ -1,0 +1,6 @@
+.splash-screen {
+    -fx-background-color: #e7a448;
+    -fx-alignment: center;
+    -fx-font-weight: bold;
+    -fx-font-size: 35px;
+}

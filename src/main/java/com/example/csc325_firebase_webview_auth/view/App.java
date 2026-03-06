@@ -25,7 +25,9 @@ public class App extends Application {
     public void start(Stage primaryStage) throws Exception {
         fstore = contxtFirebase.firebase();
         fauth = FirebaseAuth.getInstance();
-        scene = new Scene(loadFXML("/files/AccessFBView.fxml"));
+        scene = new Scene(loadFXML("/files/SplashScreen.fxml"), 900, 600);
+        scene.getStylesheets().add(getClass().getResource("/files/style.css").toExternalForm());
+        primaryStage.setTitle("Student Dashboard");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
