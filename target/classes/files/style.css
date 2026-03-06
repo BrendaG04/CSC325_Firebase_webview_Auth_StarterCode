@@ -1,6 +1,82 @@
+.root {
+    -fx-font-family: "Segoe UI";
+}
+
+.menu-bar {
+    -fx-background-color: #9a4800;
+}
+
+.menu-bar .label {
+    -fx-text-fill: #352e28;
+    -fx-font-weight: bold;
+}
+
+.left-panel {
+    -fx-background-color: #b87f32;
+    -fx-padding: 20;
+}
+
+.right-panel {
+    -fx-background-color: #6ce300;
+    -fx-padding: 20;
+}
+
+.table-view {
+    -fx-background-color: #a3a3a3;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #CCCCCC;
+}
+
+.table-view .column-header {
+    -fx-font-weight: bold;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #B07A30;
+    -fx-text-fill: white;
+}
+
+.button {
+    -fx-background-color: #b87f32;
+    -fx-text-fill: black;
+    -fx-background-radius: 10;
+    -fx-pref-width: 300px;
+    -fx-pref-height: 40px;
+    -fx-font-weight: bold;
+}
+
+.button-upload {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+}
+
 .splash-screen {
     -fx-background-color: #e7a448;
     -fx-alignment: center;
     -fx-font-weight: bold;
     -fx-font-size: 35px;
+}
+
+.vbox-form {
+    -fx-padding: 40;
+}
+
+.label-title {
+    -fx-font-size: 24;
+    -fx-font-weight: bold;
+}
+
+.label-subtle {
+    -fx-text-fill: #666;
+}
+
+.button-primary {
+    -fx-font-size: 14;
+    -fx-padding: 10;
+}
+
+.button-secondary {
+    -fx-font-size: 12;
 }
